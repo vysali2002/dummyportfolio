@@ -1,0 +1,138 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+}
+/* logo */
+.logo{
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+.nav-item a:hover{
+    color:orangered ;
+}
+
+/* grid */
+.grid-container{
+    padding: 0 8.4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(277px, 1fr));;
+    gap: 100px;
+    align-items: center;
+}
+/* fs icons */
+.fa-brands{
+    font-size: large;
+    
+}
+.social{
+    display: flex;
+    gap: 5px;
+}
+.social a{
+    text-decoration: none;
+    width:30px ;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    color: #244D61;
+   border: 1.6px solid #244d61;
+   padding: 6px;
+   
+
+}
+.social a:hover{
+    color: white;
+    background-color: #244d61;
+    transition: all.3s ease-in-out;
+    box-shadow: 0 0 20px #244D61;
+}
+.btn{
+     margin-right: 10px;
+    height:35px;
+}
+.about-desc{
+margin-left: -60px;
+}
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(277px, 1fr));;
+    padding: 0 8.4rem;
+    align-items: center;
+
+}
+#about{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.title{
+    text-align: center;
+    font-weight: 700;
+    
+}
+.details-container{
+   width: 50%;
+   height:120px;
+   padding: 0 5px;
+    text-align: center;
+    flex:1;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    margin-bottom: 10px;
+    border-color: rgb(163, 163, 163);
+}
+.section-p2{
+    margin-top: 10px;
+   text-align: center;
+}
+.titles{
+    text-align: center;
+}
+.card-ani{
+    height: 100px;
+}
+
+
+@media(max-width:923px) {
+    .grid-item{
+     margin-top:50px;
+     
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        padding: 0 1.6rem;
+
+        
+    }
+    .img-w{
+        width:80%;
+    }
+    
+}
+@media(max-width:693px){
+   .grid-item2{
+    margin-top: -50px;
+   }
+}
+
+@media(max-width:480px){
+    .about-container{
+        padding: 0 5.5rem;
+    }
+}
+
+
+
+
+
+
